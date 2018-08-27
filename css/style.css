@@ -1,0 +1,48 @@
+/*
+Couleurs demandées
+> - Bordure de l'échiquier : #50312b
+> - Case blanche : #efe0d1
+> - Case noire : #70433c
+ */
+
+h1{
+  text-align: center;
+  font-size: 2em;
+  margin: 2em auto;
+  text-transform: capitalize;
+  width: 7em;
+  border-bottom: 3px solid brown;
+  border-top: 3px solid brown;
+  border-radius: 5px;
+}
+
+h1:hover{
+  color: white;
+  background-color: brown;
+}
+
+#chess {
+  border: 7px solid #50312b;
+  width: 800px;
+  height: 800px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.square {
+  background-color: #efe0d1;
+  width: 11.11%;
+  height: 11.12%;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+
+.square--brown {
+  background-color: #70433c;
+}
+
+.selected {
+  color: red;
+  border: 1px solid red;
+}
